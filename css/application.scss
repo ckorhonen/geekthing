@@ -1,0 +1,59 @@
+@import "framework/base";
+@import "framework/layout";
+@import "framework/skeleton";
+@import "rotate-text";
+@import "rotate-bg";
+
+$fontHeader: 'Satisfy', cursive;
+$fontBody: 'Crete Round', sans-serif;
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eee;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: $fontBody;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #fff;
+}
+
+h3 {
+  font-family: $fontBody;
+  margin-bottom: 2em;
+  text-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+h2 {
+  font-family: $fontHeader;
+  text-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+h4 {
+  font-family: $fontBody;
+  text-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+p {
+  font-family: $fontBody;
+  text-shadow: 0 0 10px rgba(0,0,0,0.9);
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 6em;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #aaa;
+}
