@@ -1,6 +1,7 @@
 $stdout.sync = true
 
 use Rack::Deflater
+use Rack::StaticCache, :urls => ['/css', '/js', '/images'], :root => ''
 use Rack::Static,
   :urls => ["/css", "/js", "/images", "/spec"],
   :root => "."
